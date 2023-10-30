@@ -1,0 +1,3 @@
+
+df.groupby('Column2').mean()              # Group by a column and calculate mean
+df.groupby(['Column1', 'Column2']).size()  # Group by multiple columns and count
