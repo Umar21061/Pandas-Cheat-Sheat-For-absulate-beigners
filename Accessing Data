@@ -1,0 +1,6 @@
+
+df['Column1']     # Select a single column
+df[['Column1', 'Column2']]  # Select multiple columns
+df.iloc[0]        # Select a row by integer location
+df.loc[0]         # Select a row by label
+df.iloc[0, 1]     # Select a specific cell
