@@ -1,0 +1,2 @@
+# Pivot tables
+df.pivot_table(values='value', index='row', columns='column', aggfunc='mean')
