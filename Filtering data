@@ -1,0 +1,3 @@
+
+df[df['Column1'] > 2]         # Filter rows based on a condition
+df[(df['Column1'] > 2) & (df['Column2'] == 'D')]  # Multiple conditions
