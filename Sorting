@@ -1,0 +1,3 @@
+# Sorting
+df.sort_values (by='Column1', ascending=False)  # Sort by a column
+df.sort_index(ascending=False)
