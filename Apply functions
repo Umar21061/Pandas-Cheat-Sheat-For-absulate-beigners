@@ -1,0 +1,2 @@
+
+df['NewColumn'] = df['Column1'].apply(lambda x: x * 2)  # Apply a function to a column
