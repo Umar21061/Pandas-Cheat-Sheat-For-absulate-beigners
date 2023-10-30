@@ -1,0 +1,5 @@
+
+df.drop('Column2', axis=1, inplace=True)   # Remove a column
+df.dropna()                                # Remove rows with missing values
+df.fillna(value)                          # Fill missing values
+df.drop_duplicates()                      # Remove duplicate rows
