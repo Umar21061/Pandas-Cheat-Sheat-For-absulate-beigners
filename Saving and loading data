@@ -1,0 +1,6 @@
+
+
+df.to_csv('data.csv', index=False)      # Save to a CSV file
+df.to_excel('data.xlsx', index=False)   # Save to an Excel file
+df = pd.read_csv('data.csv')            # Load data from a CSV file
+df = pd.read_excel('data.xlsx')         # Load data from an Excel file
