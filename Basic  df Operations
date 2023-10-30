@@ -1,0 +1,7 @@
+
+
+df.head()         # Get the first 5 rows
+df.tail()         # Get the last 5 rows
+df.shape          # Get the dimensions (rows, columns)
+df.info()         # Get information about the DataFrame
+df.describe()     # Get summary statistics
